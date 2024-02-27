@@ -66,10 +66,11 @@ const NavBar = () => {
                 <nav class="navbar" role="navigation" aria-label="menu">
 
                     <Link to="/">
-                        <img src={logo} className=" ml-32" />
+                        {/* <img src={logo} className=" ml-32" /> */}
+                        <h1 className=" ml-32 ">Logo</h1>
                     </Link>
 
-                    <ul class="menuNav">
+                    <ul class="menuNav" className=" ml-32 ">
                         <li class="dropdown nav-link nav-link-fade-up transition-all duration-700" onMouseOver={showHandler} >
                             BEST SELLERS
                             {/* {show && <div>
@@ -96,9 +97,11 @@ const NavBar = () => {
 
                         <li class="dropdown nav-link nav-link-fade-up" onMouseOver={showHandler3} >
                             SHOP RANGE
+                            {/* 
                             {show3 && <ul class="dropdown-nav dropdown-nav3" onMouseLeave={dontShowHandler}>
                                 <Body />
                             </ul>}
+                             */}
 
                         </li>
 

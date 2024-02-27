@@ -3,7 +3,7 @@ import React from 'react'
 const SPFooter = () => {
     return (
         <div>
-            <footer className="footer p-10 fof text-xl fotBg text-base-content">
+            <footer className="footer p-10 fof text-xl fotBg text-base-content mt-10">
                 <div>
                     <span className="footer-title">Services</span>
                     <a className="link link-hover">Branding</a>
