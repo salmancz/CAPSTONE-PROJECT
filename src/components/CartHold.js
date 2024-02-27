@@ -57,10 +57,10 @@ const CartHold = () => {
 
 
                 <p className=' alsoLikeText relative fof text-4xl italic mb-10'> YOU MAY ALSO LIKE </p>
-                <YouMayAlsoLike className="" />
-                <CartPageFaq />
+                {/* <YouMayAlsoLike className="" /> */}
+                {/* <CartPageFaq /> */}
 
-                <CartPageFooter />
+                {/* <CartPageFooter /> */}
             </>}
 
 
