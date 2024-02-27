@@ -72,7 +72,7 @@ const NavBar = () => {
                     <ul class="menuNav">
                         <li class="dropdown nav-link nav-link-fade-up transition-all duration-700" onMouseOver={showHandler} >
                             BEST SELLERS
-                            {show && <div>
+                            {/* {show && <div>
                                 <ul class="dropdown-nav" onMouseLeave={dontShowHandler} >
 
                                     <BestSellers > </BestSellers>
@@ -80,15 +80,16 @@ const NavBar = () => {
                                 </ul>
 
                             </div>}
-
+ */}
                         </li >
 
 
                         <li class="dropdown nav-link nav-link-fade-up" onMouseOver={showHandler2} >
                             GIFT SETS
+                            {/*  
                             {show2 && <ul class="dropdown-nav dropdown-nav2" onMouseLeave={dontShowHandler}>
                                 <GiftSets />
-                            </ul>}
+                            </ul>}*/}
 
                         </li>
 
