@@ -110,9 +110,9 @@ const NavBar = () => {
 
                     </ul>
 
-                    {/* <Link to="/cart">
+                    <Link to="/cart">
                         <FaShoppingBag className=' text-2xl text-right ml-10 relative left-24' />
-                    </Link> */}
+                    </Link> 
                 </nav >
             </header >
 
