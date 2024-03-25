@@ -22,7 +22,7 @@ const CartHold = () => {
     return (
         <div>
             <MobileNav />
-            {/*<p className=' font-bold text-2xl fof'>CART TOAL ${totalPrice} </p>*/}
+            <p className=' font-bold text-2xl fof'>CART TOAL ${totalPrice} </p>
             {cartLen === 0 ? <EmptyCart /> : <>
                 <div className=' flex flex-row relative gap-40 urCartItem'>
                     <p className=' text-2xl'> Your Cart </p>
@@ -57,10 +57,10 @@ const CartHold = () => {
 
 
                 <p className=' alsoLikeText relative fof text-4xl italic mb-10'> YOU MAY ALSO LIKE </p>
-                {/* <YouMayAlsoLike className="" /> */}
-                {/* <CartPageFaq /> */}
+                <YouMayAlsoLike className="" />
+                <CartPageFaq />
 
-                {/* <CartPageFooter /> */}
+                <CartPageFooter />
             </>}
 
 
