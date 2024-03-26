@@ -22,6 +22,7 @@ import Under10 from './components/Under10';
 import ForHer from './components/ForHer';
 import ForHim from './components/ForHim';
 import MobileNav from './components/MobileNav';
+import Admin from './components/Admin';
 
 function App() {
 
@@ -38,6 +39,7 @@ function App() {
           <Route path='/under40' element={<> <NavBar />  <Under10 /> </>} />
           <Route path='/forher' element={<> <NavBar />  <ForHer /> </>} />
           <Route path='/forhim' element={<> <NavBar />  <ForHim /> </>} />
+          <Route path='/admin' element={<Admin />} /> 
         </Routes>
 
       </BrowserRouter>
